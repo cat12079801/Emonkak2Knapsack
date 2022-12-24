@@ -1,0 +1,766 @@
+{
+  "from": {
+    "1args": {
+      "Expr_New": [
+        "web/app/admin_controller/order_dashboard.php L127",
+        "web/app/classes/BusinessLogic/MonthlyBillingPayment.php L86",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L448",
+        "web/app/batch/prefix_phone_call_downloader/main.php L219",
+        "web/app/batch/prefix_phone_call_downloader/main.php L296",
+        "web/app/batch/check_mnp_user_expired_today/main.php L38"
+      ],
+      "Expr_Variable": [
+        "web/app/admin_controller/order_dashboard.php L130",
+        "web/app/admin_controller/order_dashboard.php L140",
+        "web/app/admin_controller/order_dashboard.php L143",
+        "web/app/admin_controller/order_dashboard.php L149",
+        "web/app/admin_controller/order_dashboard.php L155",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L74",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L77",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L82",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L95",
+        "web/app/admin_controller/user_identification.php L63",
+        "web/app/admin_controller/user_identification.php L71",
+        "web/app/admin_controller/reminder.php L26",
+        "web/app/admin_controller/reminder.php L152",
+        "web/app/admin_controller/mail_send.php L80",
+        "web/app/admin_controller/user_authentication.php L443",
+        "web/app/admin_controller/show_identification_docs.php L114",
+        "web/app/classes/LLCommonBehavior.php L823",
+        "web/app/classes/LLCommonBehavior.php L868",
+        "web/app/lib/GameLinkCommon.php L1017",
+        "web/app/lib/pcc.php L519",
+        "web/app/lib/pcc.php L647",
+        "web/app/lib/pcc.php L709",
+        "web/app/lib/pcc.php L834",
+        "web/app/generated-classes/ConnectMonthlyBillingDetail.php L64",
+        "web/app/generated-classes/ConnectMonthlyBillingDetail.php L141",
+        "web/app/generated-classes/ConnectMonthlyBillingDetail.php L145",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L65",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L90",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L102",
+        "web/app/website_controller/api_mypage.php L1588",
+        "web/app/website_controller/api_mypage.php L1593",
+        "web/app/website_controller/api_mypage.php L1599",
+        "web/app/website_controller/api_mypage.php L1606",
+        "web/app/website_controller/api_mypage.php L2027",
+        "web/app/website_controller/api_setting.php L806",
+        "web/app/website_controller/mypage.php L149",
+        "web/app/website_controller/mypage.php L749",
+        "web/app/website_controller/mypage.php L2339",
+        "web/app/website_controller/mypage.php L2344",
+        "web/app/website_controller/mypage.php L2350",
+        "web/app/website_controller/mypage.php L2357",
+        "web/app/website_controller/mypage.php L2674",
+        "web/app/website_controller/mypage.php L2712",
+        "web/app/website_controller/debug.php L1441",
+        "web/app/generated-classes/ConnectOrder.php L2890",
+        "web/app/generated-classes/ConnectOrder.php L2925",
+        "web/app/generated-classes/ConnectOrder.php L2965",
+        "web/app/generated-classes/ConnectOrder.php L2970",
+        "web/app/generated-classes/ConnectOrder.php L3444",
+        "web/app/generated-classes/ConnectOrder.php L3453",
+        "web/app/generated-classes/ConnectOrder.php L3741",
+        "web/app/generated-classes/ConnectOrder.php L3745",
+        "web/app/generated-classes/ConnectOrder.php L3748",
+        "web/app/generated-classes/ConnectOrder.php L3768",
+        "web/app/generated-classes/ConnectOrder.php L3811",
+        "web/app/generated-classes/ConnectOrder.php L3814",
+        "web/app/generated-classes/ConnectUserInfo.php L710",
+        "web/app/generated-classes/ConnectUserInfo.php L1109",
+        "web/app/generated-classes/ConnectUserInfo.php L1117",
+        "web/app/generated-classes/ConnectUserInfo.php L1127",
+        "web/app/generated-classes/ConnectUserInfo.php L1178",
+        "web/app/generated-classes/ConnectUserInfo.php L1194",
+        "web/app/generated-classes/ConnectUserInfo.php L1277",
+        "web/app/generated-classes/ConnectUserInfo.php L1468",
+        "web/app/generated-classes/ConnectUserInfo.php L1470",
+        "web/app/generated-classes/ConnectUserInfo.php L1480",
+        "web/app/classes/BusinessLogic/MonthlyBillingPayment.php L99",
+        "web/app/classes/BusinessLogic/BillingTrait.php L108",
+        "web/app/classes/BusinessLogic/MypageNoticeBranch.php L484",
+        "web/app/classes/LogicLinks/NewOrder.php L25",
+        "web/app/classes/LogicLinks/JapaneseCalendar.php L91",
+        "web/app/batch/monthly_billing_create/main.php L215",
+        "web/app/batch/migrate_user_authentication/migrate.php L20",
+        "web/app/batch/migrate_user_authentication/migrate.php L220",
+        "web/app/batch/migrate_user_authentication/migrate.php L261",
+        "web/app/batch/migrate_user_authentication/migrate.php L276",
+        "web/app/batch/search_all_tables/main.php L121",
+        "web/app/batch/monthly_billing_amend/send_mail.php L31",
+        "web/app/batch/monthly_billing_amend/send_mail.php L32",
+        "web/app/batch/monthly_billing_amend/amend_docomo_calls.php L166",
+        "web/app/batch/monthly_billing_amend/amend_docomo_calls.php L198",
+        "web/app/batch/monthly_billing_amend/amend_docomo_calls.php L380",
+        "web/app/classes/LogicLinks/Acs/AladinManager.php L767"
+      ],
+      "Expr_Array": [
+        "web/app/admin_controller/order_dashboard.php L147",
+        "web/app/admin_controller/order_dashboard.php L153",
+        "web/app/website_controller/mpi_redirect.php L28",
+        "web/app/classes/LogicLinks/Acs/AladinManager.php L803"
+      ],
+      "Expr_MethodCall": [
+        "web/app/admin_controller/reminder.php L157",
+        "web/app/generated-migrations/PropelMigration_1558937594.php L18",
+        "web/app/classes/SalesSummary.php L634",
+        "web/app/website_controller/order.php L985",
+        "web/app/website_controller/api_order.php L541",
+        "web/app/generated-classes/ConnectOrder.php L3602",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L227",
+        "web/app/classes/LogicLinks/LinksPoint/PendingOrderList.php L29"
+      ],
+      "Expr_ArrayDimFetch": [
+        "web/app/admin_controller/confirm_lp.php L36",
+        "web/app/lib/enqueteHandler.php L216",
+        "web/app/lib/GameLinkCommon.php L1013",
+        "web/app/website_controller/api_mypage.php L2448",
+        "web/app/website_controller/mypage.php L291",
+        "web/app/website_controller/mypage.php L344",
+        "web/app/website_controller/mypage.php L348",
+        "web/app/website_controller/mypage.php L350",
+        "web/app/website_controller/mypage.php L360",
+        "web/app/website_controller/mypage.php L3117",
+        "web/app/website_controller/mypage.php L3275",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L69",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L122",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L126",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L128",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L138",
+        "web/app/website_controller/api_mypage_linkspoint.php L226",
+        "web/app/batch/prefix_phone_call_downloader/main.php L169"
+      ],
+      "Expr_StaticCall": [
+        "web/app/admin_controller/user_authentication.php L17",
+        "web/app/admin_controller/user_authentication.php L60",
+        "web/app/admin_controller/user_authentication.php L126",
+        "web/app/admin_controller/user_authentication.php L432",
+        "web/app/admin_controller/user_authentication.php L570",
+        "web/app/website_controller/order.php L312",
+        "web/app/website_controller/api_about_networkarea.php L31",
+        "web/app/website_controller/api_order.php L115",
+        "web/app/generated-classes/ConnectOrder.php L3633",
+        "web/app/generated-classes/ConnectOrder.php L3728",
+        "web/app/generated-classes/ConnectGroupMaster.php L431",
+        "web/app/generated-classes/ConnectUserInfo.php L1016",
+        "web/app/classes/BusinessLogic/Preorder.php L248",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L87",
+        "web/app/batch/amend_db_20171212/main.php L121"
+      ],
+      "Expr_FuncCall": [
+        "web/app/generated-classes/ConnectOrder.php L2861",
+        "web/app/generated-classes/ConnectOrder.php L3763"
+      ],
+      "Expr_BinaryOp_Coalesce": [
+        "web/app/generated-classes/ConnectUserInfo.php L1344"
+      ],
+      "Expr_BinaryOp_Plus": [
+        "web/app/classes/BusinessLogic/ProcedureBeforeFirstPayment.php L75"
+      ],
+      "Expr_ConstFetch": [
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L144"
+      ],
+      "Expr_ClassConstFetch": [
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L299"
+      ]
+    }
+  },
+  "reverse": {
+    "0args": {
+      "": [
+        "web/app/admin_controller/order_dashboard.php L128"
+      ]
+    }
+  },
+  "toList": {
+    "0args": {
+      "": [
+        "web/app/admin_controller/order_dashboard.php L129",
+        "web/app/admin_controller/order_dashboard.php L132",
+        "web/app/admin_controller/order_dashboard.php L142",
+        "web/app/admin_controller/order_dashboard.php L145",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L77",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L84",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L98",
+        "web/app/admin_controller/user_identification.php L67",
+        "web/app/admin_controller/user_identification.php L75",
+        "web/app/admin_controller/confirm_lp.php L55",
+        "web/app/admin_controller/show_identification_docs.php L118",
+        "web/app/classes/LLCommonBehavior.php L868",
+        "web/app/generated-classes/ConnectMonthlyBillingDetail.php L68",
+        "web/app/generated-classes/ConnectMonthlyBillingDetail.php L143",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L69",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L93",
+        "web/app/website_controller/api_mypage.php L1597",
+        "web/app/website_controller/mypage.php L310",
+        "web/app/website_controller/mypage.php L2348",
+        "web/app/website_controller/mypage.php L3136",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L88",
+        "web/app/website_controller/api_mypage_linkspoint.php L245",
+        "web/app/generated-classes/ConnectOrder.php L2866",
+        "web/app/generated-classes/ConnectOrder.php L2899",
+        "web/app/generated-classes/ConnectOrder.php L2932",
+        "web/app/generated-classes/ConnectOrder.php L2983",
+        "web/app/generated-classes/ConnectOrder.php L3446",
+        "web/app/generated-classes/ConnectOrder.php L3465",
+        "web/app/generated-classes/ConnectOrder.php L3743",
+        "web/app/generated-classes/ConnectOrder.php L3747",
+        "web/app/generated-classes/ConnectOrder.php L3750",
+        "web/app/generated-classes/ConnectOrder.php L3760",
+        "web/app/generated-classes/ConnectGroupMaster.php L438",
+        "web/app/generated-classes/ConnectUserInfo.php L1024",
+        "web/app/generated-classes/ConnectUserInfo.php L1487",
+        "web/app/classes/BusinessLogic/Preorder.php L253",
+        "web/app/classes/BusinessLogic/BillingTrait.php L129",
+        "web/app/batch/amend_db_20171212/main.php L128",
+        "web/app/batch/migrate_user_authentication/migrate.php L265",
+        "web/app/batch/check_mnp_user_expired_today/main.php L58",
+        "web/app/batch/monthly_billing_amend/send_mail.php L34",
+        "web/app/batch/monthly_billing_amend/amend_docomo_calls.php L169",
+        "web/app/batch/monthly_billing_amend/amend_docomo_calls.php L202",
+        "web/app/classes/LogicLinks/Payment/PaymentMethod/LinksPoint.php L64"
+      ]
+    }
+  },
+  "map": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/admin_controller/order_dashboard.php L131",
+        "web/app/admin_controller/order_dashboard.php L141",
+        "web/app/admin_controller/order_dashboard.php L144",
+        "web/app/admin_controller/order_dashboard.php L150",
+        "web/app/admin_controller/order_dashboard.php L148",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L75",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L77",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L83",
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L96",
+        "web/app/admin_controller/reminder.php L153",
+        "web/app/admin_controller/reminder.php L159",
+        "web/app/admin_controller/confirm_lp.php L44",
+        "web/app/admin_controller/user_authentication.php L447",
+        "web/app/generated-classes/ConnectMonthlyBillingDetail.php L65",
+        "web/app/generated-classes/ConnectMonthlyBillingDetail.php L142",
+        "web/app/generated-classes/ConnectMonthlyBillingDetail.php L147",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L66",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L92",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L104",
+        "web/app/website_controller/api_mypage.php L1594",
+        "web/app/website_controller/api_mypage.php L1600",
+        "web/app/website_controller/api_mypage.php L1607",
+        "web/app/website_controller/api_mypage.php L2028",
+        "web/app/website_controller/api_mypage.php L2039",
+        "web/app/website_controller/mypage.php L150",
+        "web/app/website_controller/mypage.php L161",
+        "web/app/website_controller/mypage.php L299",
+        "web/app/website_controller/mypage.php L345",
+        "web/app/website_controller/mypage.php L352",
+        "web/app/website_controller/mypage.php L361",
+        "web/app/website_controller/mypage.php L2345",
+        "web/app/website_controller/mypage.php L2351",
+        "web/app/website_controller/mypage.php L2358",
+        "web/app/website_controller/mypage.php L3125",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L77",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L123",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L130",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L139",
+        "web/app/website_controller/order.php L337",
+        "web/app/website_controller/api_mypage_linkspoint.php L234",
+        "web/app/website_controller/api_order.php L140",
+        "web/app/website_controller/mpi_redirect.php L37",
+        "web/app/generated-classes/ConnectOrder.php L2891",
+        "web/app/generated-classes/ConnectOrder.php L2927",
+        "web/app/generated-classes/ConnectOrder.php L3445",
+        "web/app/generated-classes/ConnectOrder.php L3454",
+        "web/app/generated-classes/ConnectOrder.php L3608",
+        "web/app/generated-classes/ConnectOrder.php L3741",
+        "web/app/generated-classes/ConnectOrder.php L3745",
+        "web/app/generated-classes/ConnectOrder.php L3748",
+        "web/app/generated-classes/ConnectOrder.php L3767",
+        "web/app/generated-classes/ConnectGroupMaster.php L435",
+        "web/app/generated-classes/ConnectUserInfo.php L1021",
+        "web/app/generated-classes/ConnectUserInfo.php L1484",
+        "web/app/classes/BusinessLogic/BillingTrait.php L109",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L90",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L145",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L300",
+        "web/app/classes/LogicLinks/NewOrder.php L26",
+        "web/app/classes/LogicLinks/JapaneseCalendar.php L93",
+        "web/app/batch/migrate_user_authentication/migrate.php L21",
+        "web/app/batch/migrate_user_authentication/migrate.php L262",
+        "web/app/batch/check_mnp_user_expired_today/main.php L39",
+        "web/app/batch/monthly_billing_amend/amend_docomo_calls.php L198",
+        "web/app/batch/monthly_billing_amend/amend_docomo_calls.php L381",
+        "web/app/classes/LogicLinks/Acs/AladinManager.php L804"
+      ],
+      "Scalar_String": [
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L77",
+        "web/app/classes/BusinessLogic/Preorder.php L252"
+      ]
+    },
+    "2args": {
+      "Expr_Closure, Expr_Closure": [
+        "web/app/generated-classes/ConnectOrder.php L3812"
+      ]
+    }
+  },
+  "toListRec": {
+    "0args": {
+      "": [
+        "web/app/admin_controller/order_dashboard.php L152"
+      ]
+    }
+  },
+  "uniq": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/admin_controller/order_dashboard.php L156"
+      ]
+    },
+    "0args": {
+      "": [
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L97"
+      ]
+    }
+  },
+  "size": {
+    "0args": {
+      "": [
+        "web/app/admin_controller/order_dashboard.php L157"
+      ]
+    }
+  },
+  "any": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/admin_controller/order_dashboard.php L154",
+        "web/app/website_controller/api_setting.php L807",
+        "web/app/website_controller/mypage.php L750",
+        "web/app/generated-classes/ConnectOrder.php L2965",
+        "web/app/batch/migrate_user_authentication/migrate.php L225",
+        "web/app/batch/prefix_phone_call_downloader/main.php L228",
+        "web/app/batch/prefix_phone_call_downloader/main.php L305"
+      ],
+      "Scalar_String": [
+        "web/app/website_controller/api_mypage.php L2448",
+        "web/app/website_controller/mypage.php L3275"
+      ]
+    }
+  },
+  "groupBy": {
+    "1args": {
+      "Scalar_String": [
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L76",
+        "web/app/website_controller/api_mypage.php L2038",
+        "web/app/website_controller/mypage.php L160",
+        "web/app/website_controller/mypage.php L357",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L135",
+        "web/app/batch/monthly_billing_amend/send_mail.php L31"
+      ],
+      "Expr_Closure": [
+        "web/app/admin_controller/confirm_lp.php L37",
+        "web/app/classes/SalesSummary.php L636",
+        "web/app/website_controller/api_mypage.php L1589",
+        "web/app/website_controller/mypage.php L292",
+        "web/app/website_controller/mypage.php L2340",
+        "web/app/website_controller/mypage.php L3118",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L70",
+        "web/app/website_controller/api_mypage_linkspoint.php L227",
+        "web/app/generated-classes/ConnectOrder.php L3607",
+        "web/app/generated-classes/ConnectOrder.php L3764",
+        "web/app/generated-classes/ConnectUserInfo.php L711",
+        "web/app/classes/LogicLinks/LinksPoint/PendingOrderList.php L34"
+      ]
+    }
+  },
+  "toArray": {
+    "0args": {
+      "": [
+        "web/app/admin_controller/allow_payment_after_forced_cancellation.php L78",
+        "web/app/admin_controller/reminder.php L163",
+        "web/app/classes/SalesSummary.php L637",
+        "web/app/lib/enqueteHandler.php L216",
+        "web/app/lib/GameLinkCommon.php L1013",
+        "web/app/lib/GameLinkCommon.php L1017",
+        "web/app/lib/pcc.php L519",
+        "web/app/lib/pcc.php L647",
+        "web/app/lib/pcc.php L709",
+        "web/app/lib/pcc.php L834",
+        "web/app/website_controller/api_mypage.php L2047",
+        "web/app/website_controller/mypage.php L169",
+        "web/app/website_controller/mypage.php L358",
+        "web/app/website_controller/mypage.php L364",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L136",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L142",
+        "web/app/website_controller/order.php L339",
+        "web/app/website_controller/api_about_networkarea.php L31",
+        "web/app/website_controller/api_order.php L142",
+        "web/app/generated-classes/ConnectOrder.php L3609",
+        "web/app/generated-classes/ConnectOrder.php L3647",
+        "web/app/generated-classes/ConnectOrder.php L3780",
+        "web/app/generated-classes/ConnectOrder.php L3813",
+        "web/app/generated-classes/ConnectOrder.php L3818",
+        "web/app/generated-classes/ConnectUserInfo.php L712",
+        "web/app/classes/BusinessLogic/ProcedureBeforeFirstPayment.php L77",
+        "web/app/classes/LogicLinks/LinksPoint/PendingOrderList.php L35"
+      ]
+    }
+  },
+  "filter": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/admin_controller/user_identification.php L64",
+        "web/app/admin_controller/user_identification.php L72",
+        "web/app/admin_controller/reminder.php L27",
+        "web/app/admin_controller/user_authentication.php L444",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L91",
+        "web/app/generated-classes/ConnectOrder.php L2971",
+        "web/app/generated-classes/ConnectOrder.php L3641",
+        "web/app/generated-classes/ConnectGroupMaster.php L432",
+        "web/app/generated-classes/ConnectUserInfo.php L1017",
+        "web/app/generated-classes/ConnectUserInfo.php L1195",
+        "web/app/generated-classes/ConnectUserInfo.php L1278",
+        "web/app/generated-classes/ConnectUserInfo.php L1481",
+        "web/app/classes/BusinessLogic/ProcedureBeforeFirstPayment.php L76",
+        "web/app/classes/BusinessLogic/Preorder.php L249",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L88",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L89",
+        "web/app/batch/amend_db_20171212/main.php L125",
+        "web/app/batch/prefix_phone_call_downloader/main.php L170",
+        "web/app/batch/monthly_billing_amend/send_mail.php L33",
+        "web/app/batch/monthly_billing_amend/amend_docomo_calls.php L167"
+      ]
+    }
+  },
+  "intercalate": {
+    "1args": {
+      "Scalar_String": [
+        "web/app/admin_controller/reminder.php L156",
+        "web/app/generated-classes/ConnectMonthlyBillingDetail.php L150",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L107",
+        "web/app/website_controller/mpi_redirect.php L39",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L91",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L146",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L301",
+        "web/app/classes/LogicLinks/NewOrder.php L27",
+        "web/app/classes/LogicLinks/JapaneseCalendar.php L94",
+        "web/app/batch/migrate_user_authentication/migrate.php L22",
+        "web/app/classes/LogicLinks/Acs/AladinManager.php L852"
+      ]
+    }
+  },
+  "where": {
+    "1args": {
+      "Expr_Array": [
+        "web/app/admin_controller/reminder.php L158"
+      ]
+    }
+  },
+  "object": {
+    "0args": {
+      "": [
+        "web/app/admin_controller/reminder.php L162"
+      ]
+    }
+  },
+  "sortBy": {
+    "1args": {
+      "Scalar_String": [
+        "web/app/admin_controller/confirm_lp.php L54",
+        "web/app/website_controller/mypage.php L309",
+        "web/app/website_controller/mypage.php L3135",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L87",
+        "web/app/website_controller/api_mypage_linkspoint.php L244"
+      ],
+      "Expr_Closure": [
+        "web/app/admin_controller/show_identification_docs.php L115",
+        "web/app/generated-classes/ConnectMonthlyBillingDetail.php L146",
+        "web/app/generated-classes/ConnectOnceBillingDetail.php L103",
+        "web/app/website_controller/debug.php L1441",
+        "web/app/generated-classes/ConnectOrder.php L3815",
+        "web/app/classes/LogicLinks/Payment/PaymentMethod/LinksPoint.php L61"
+      ]
+    }
+  },
+  "zipWith": {
+    "1args": {
+      "Expr_Variable": [
+        "web/app/admin_controller/mail_send.php L81"
+      ]
+    }
+  },
+  "each": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/admin_controller/mail_send.php L82",
+        "web/app/classes/BusinessLogic/MonthlyBillingPayment.php L111",
+        "web/app/classes/BusinessLogic/MonthlyBillingPayment.php L87",
+        "web/app/batch/migrate_user_authentication/migrate.php L276"
+      ]
+    }
+  },
+  "first": {
+    "0args": {
+      "": [
+        "web/app/generated-migrations/PropelMigration_1558937594.php L24"
+      ]
+    }
+  },
+  "findWhere": {
+    "1args": {
+      "Expr_Array": [
+        "web/app/admin_controller/user_authentication.php L17",
+        "web/app/admin_controller/user_authentication.php L60",
+        "web/app/admin_controller/user_authentication.php L126",
+        "web/app/generated-classes/ConnectUserInfo.php L1468",
+        "web/app/generated-classes/ConnectUserInfo.php L1470"
+      ]
+    }
+  },
+  "find": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/admin_controller/user_authentication.php L433",
+        "web/app/admin_controller/user_authentication.php L571",
+        "web/app/website_controller/order.php L992",
+        "web/app/website_controller/api_order.php L548",
+        "web/app/classes/BusinessLogic/MypageNoticeBranch.php L485"
+      ]
+    }
+  },
+  "difference": {
+    "1args": {
+      "Expr_Variable": [
+        "web/app/admin_controller/user_authentication.php L448",
+        "web/app/website_controller/api_about_networkarea.php L31"
+      ]
+    }
+  },
+  "some": {
+    "0args": {
+      "": [
+        "web/app/admin_controller/user_authentication.php L449"
+      ]
+    }
+  },
+  "flatten": {
+    "0args": {
+      "": [
+        "web/app/classes/LLCommonBehavior.php L823",
+        "web/app/classes/LLCommonBehavior.php L868",
+        "web/app/batch/check_mnp_user_expired_today/main.php L57"
+      ]
+    }
+  },
+  "pluck": {
+    "1args": {
+      "Scalar_String": [
+        "web/app/lib/enqueteHandler.php L216",
+        "web/app/lib/GameLinkCommon.php L1013",
+        "web/app/lib/GameLinkCommon.php L1017",
+        "web/app/batch/search_all_tables/main.php L123"
+      ],
+      "Scalar_Encapsed": [
+        "web/app/batch/search_all_tables/main.php L122"
+      ]
+    }
+  },
+  "pick": {
+    "1args": {
+      "Scalar_String": [
+        "web/app/lib/pcc.php L519",
+        "web/app/lib/pcc.php L647",
+        "web/app/lib/pcc.php L709",
+        "web/app/lib/pcc.php L834"
+      ]
+    }
+  },
+  "omit": {
+    "1args": {
+      "Scalar_String": [
+        "web/app/website_controller/api_mypage.php L1590",
+        "web/app/website_controller/mypage.php L2341"
+      ]
+    }
+  },
+  "minWith": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/website_controller/api_mypage.php L1603",
+        "web/app/website_controller/mypage.php L2354",
+        "web/app/generated-classes/ConnectOrder.php L3769"
+      ]
+    }
+  },
+  "maxWith": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/website_controller/api_mypage.php L1610",
+        "web/app/website_controller/mypage.php L2361",
+        "web/app/batch/prefix_phone_call_downloader/main.php L173",
+        "web/app/classes/LogicLinks/Acs/AladinManager.php L768"
+      ]
+    }
+  },
+  "without": {
+    "1args": {
+      "Expr_ConstFetch": [
+        "web/app/website_controller/api_mypage.php L2037",
+        "web/app/website_controller/mypage.php L159",
+        "web/app/generated-classes/ConnectOrder.php L2926",
+        "web/app/generated-classes/ConnectOrder.php L3759"
+      ],
+      "Scalar_String": [
+        "web/app/batch/search_all_tables/main.php L124"
+      ]
+    }
+  },
+  "values": {
+    "0args": {
+      "": [
+        "web/app/website_controller/mypage.php L351",
+        "web/app/website_controller/mypage.php L391",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L129",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L169"
+      ]
+    }
+  },
+  "flatMap": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/website_controller/mypage.php L349",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L127",
+        "web/app/generated-classes/ConnectUserInfo.php L1345",
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L228"
+      ]
+    }
+  },
+  "concat": {
+    "1args": {
+      "Expr_Array": [
+        "web/app/website_controller/mypage.php L343",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L121",
+        "web/app/generated-classes/ConnectUserInfo.php L1192",
+        "web/app/generated-classes/ConnectUserInfo.php L1276",
+        "web/app/classes/LogicLinks/Payment/PaymentMethod/LinksPoint.php L41"
+      ],
+      "Expr_BinaryOp_Plus": [
+        "web/app/website_controller/mypage.php L386",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L164"
+      ],
+      "Expr_Variable": [
+        "web/app/generated-classes/ConnectOrder.php L2850",
+        "web/app/generated-classes/ConnectOrder.php L3036"
+      ]
+    }
+  },
+  "sum": {
+    "1args": {
+      "Scalar_String": [
+        "web/app/website_controller/mypage.php L392",
+        "web/app/website_controller/api_mypage_linkspoint_tab.php L170"
+      ],
+      "Expr_Closure": [
+        "web/app/website_controller/mypage.php L2675",
+        "web/app/website_controller/mypage.php L2713"
+      ]
+    },
+    "0args": {
+      "": [
+        "web/app/batch/monthly_billing_amend/amend_docomo_calls.php L382"
+      ]
+    }
+  },
+  "range": {
+    "1args": {
+      "Scalar_LNumber": [
+        "web/app/website_controller/api_about_networkarea.php L31"
+      ]
+    }
+  },
+  "join": {
+    "4args": {
+      "Expr_Cast_Array, Expr_Closure, Expr_ConstFetch, Expr_Closure": [
+        "web/app/generated-classes/ConnectOrder.php L2862"
+      ],
+      "Expr_StaticCall, Expr_Closure, Expr_Closure, Expr_Closure": [
+        "web/app/classes/BusinessLogic/MonthlyBillingPayment.php L100"
+      ]
+    }
+  },
+  "indexBy": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/generated-classes/ConnectOrder.php L3644"
+      ]
+    }
+  },
+  "groupJoin": {
+    "4args": {
+      "Expr_Variable, Expr_Closure, Expr_Closure, Expr_Closure": [
+        "web/app/generated-classes/ConnectOrder.php L3752"
+      ]
+    }
+  },
+  "all": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/generated-classes/ConnectUserInfo.php L1110",
+        "web/app/generated-classes/ConnectUserInfo.php L1118",
+        "web/app/generated-classes/ConnectUserInfo.php L1128",
+        "web/app/generated-classes/ConnectUserInfo.php L1179"
+      ]
+    }
+  },
+  "concatMap": {
+    "1args": {
+      "Expr_Closure": [
+        "web/app/classes/BusinessLogic/MonthlyBillingCalculator.php L453",
+        "web/app/batch/amend_db_20171212/main.php L122",
+        "web/app/batch/migrate_user_authentication/migrate.php L223"
+      ]
+    }
+  },
+  "keys": {
+    "0args": {
+      "": [
+        "web/app/classes/LogicLinks/JapaneseCalendar.php L92",
+        "web/app/batch/migrate_user_authentication/migrate.php L221"
+      ]
+    }
+  },
+  "invoke": {
+    "1args": {
+      "Scalar_String": [
+        "web/app/batch/monthly_billing_create/main.php L215"
+      ]
+    }
+  },
+  "sort": {
+    "0args": {
+      "": [
+        "web/app/batch/migrate_user_authentication/migrate.php L222"
+      ]
+    }
+  },
+  "memoize": {
+    "0args": {
+      "": [
+        "web/app/batch/migrate_user_authentication/migrate.php L224"
+      ]
+    }
+  },
+  "zip": {
+    "1args": {
+      "Expr_Array": [
+        "web/app/batch/migrate_user_authentication/migrate.php L225"
+      ]
+    }
+  },
+  "isEmpty": {
+    "0args": {
+      "": [
+        "web/app/batch/search_all_tables/main.php L125"
+      ]
+    }
+  }
+}
